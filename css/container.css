@@ -1,0 +1,138 @@
+.container{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background: white;
+}
+.container-item{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    height: 350px;
+}
+
+
+/* Container rules */
+.container-evo{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    background: lightskyblue; 
+}
+.container-rules{
+    margin: 5px 0px;
+}
+/* Single rule container */
+.rule{
+    display: flex;
+    background-color: lightskyblue;
+    height: 30px;
+    align-items: center;
+}
+
+/* single rule parts */
+.rule-input{
+    width: 100%;
+}
+    .cur-char{
+    margin-inline: 0px 5px;
+    }
+    .new-char{
+        margin-inline: 5px;
+    }
+    .bef-char{
+        width: 70%;
+        margin-inline: 0px;
+    }
+    .aft-char{
+        width: 70%;
+        margin-inline: 0px 5px;
+    }
+    .unl-bef{
+        width: 70%;
+        margin-inline: 0px;
+    }
+    .unl-aft{
+        width: 70%;
+        margin-inline: 0px;
+    }
+
+
+/* buttons in rules*/
+.evo-buttons {
+    display: flex;
+    justify-content: space-between; /* Add this line */
+    /* background-color: black; */
+    margin-top: auto;
+}
+
+/* Container protowords */
+.container-proto{
+    background: rgba(135, 206, 250, 0.450);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.input-field{
+    width: 100%;
+    margin: 10px 0px;
+    align-self: center;
+}
+
+
+
+
+/* Container symbols */
+.container-symbols{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: rgba(135, 206, 250, 0.450); 
+}
+.container-shorts{
+    margin: 5px 0px;
+}
+
+/* Single short container */
+.short{
+    display: flex;
+    /* background-color: rgba(135, 206, 250, 0.450); */
+    height: 30px;
+    align-items: center;
+}
+
+/* single short parts */
+.short-input{
+    width: 100%;
+}
+.symbol-char{
+    width: 20%;
+    margin-inline: 0px 5px;
+    }
+.meaning-char{
+    margin-inline: 5px 0px;
+}
+
+/* buttons in shorts*/
+.symbols-buttons {
+    display: flex;
+    justify-content: space-between; /* Add this line */
+    /* background-color: black; */
+    margin-top: auto;
+}
+
+
+
+/* Container new words */
+.container-output{
+    background: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+
+
+
